@@ -29,11 +29,11 @@ public class ContaTerminal {
         )));
 
         JOptionPane.showMessageDialog(null,
-                "Numero da conta: " + cliente.getNumero()
-                        + "\nAgência: " + cliente.getAgencia()
-                        + "\nNome do cliente: " + cliente.getNomeCliente()
-                        + "\nSaldo: " + cliente.getSaldo());
-
+                "Olá " + cliente.getNomeCliente()
+                        + " , obrigado por criar uma conta em nosso banco. Sua agência é "
+                        + cliente.getAgencia() + ", conta: " + cliente.getNumero()
+                        + " e seu Saldo de R$: " + cliente.getSaldo()
+                        + " já esta disponível para saque.");
 
         System.exit(0);
 
